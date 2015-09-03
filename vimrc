@@ -1,7 +1,7 @@
 " Pathogen
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
+"syntax on
+"filetype plugin indent on
 " Wrap text instead of being on one line
 set lbr
 
