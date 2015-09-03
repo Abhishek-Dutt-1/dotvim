@@ -14,9 +14,9 @@ Install a new plugin::
 > 1. cd ~/.vim
 > 2. mkdir ~/.vim/bundle
 > 3. git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
-> 4. git add .
-> 5. git commit -m "Installed Fugitive.vim bundle as a submodule"
-> 6. Add ignore = dirty in .gitmodules (see Ref2)
+> 4. Add ignore = dirty in .gitmodules (see Ref2)
+> 5. git add .
+> 6. git commit -m "Installed Fugitive.vim bundle as a submodule"
 
 Upgrading a Plugin bundle::
 ---------------------------
@@ -27,6 +27,11 @@ Upgrading all bundled plugins::
 -------------------------------
 > 1. git submodule foreach git pull origin master
 
+Remove a bundled plugin::
+-------------------------
+> http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule
+
 
 * Ref1: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
 * Ref2: http://www.nils-haldenwang.de/frameworks-and-tools/git/how-to-ignore-changes-in-git-submodules
+
