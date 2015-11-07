@@ -12,11 +12,11 @@ colorscheme codeschool
 set number
 
 " Tab width = 4, still a /t
-set tabstop=4
+set tabstop=2
 " Indents will have width = 4
-set shiftwidth=4
+set shiftwidth=2
 " Set number of columns for a Tab
-set softtabstop=4
+set softtabstop=2
 " Expand Tabs to spaces
 set expandtab
 
