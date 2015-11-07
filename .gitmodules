@@ -6,3 +6,12 @@
 	path = bundle/vim-colors
 	url = https://github.com/dandorman/vim-colors.git
     ignore = dirty
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = http://github.com/Valloric/YouCompleteMe
+    ignore = dirty
+[submodule "bundle/tern_for_vim"]
+	path = bundle/tern_for_vim
+	url = http://github.com/ternjs/tern_for_vim
+    ignore = dirty
+
