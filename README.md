@@ -1,6 +1,10 @@
+General::
+-------
+Check the 'bundle' folder for the list of included plugins.
+This uses Pathogen as the plugin manager.
 
-Install this vim config::
--------------------------
+Install this vim config for the first time::
+------------------------------------------
 > 1. cd ~
 > 2. git clone http://github.com/AbhishekDutt/dotvim.git ~/.vim
 > 3. ln -s ~/.vim/vimrc ~/.vimrc
@@ -11,10 +15,12 @@ Install this vim config::
 
 Install a new plugin::
 --------------------
-> 1. cd ~/.vim
-> 2. mkdir ~/.vim/bundle
-> 3. git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
-> 4. Add ignore = dirty in .gitmodules (see Ref2)
+e.g. installing vim-fugitive
+
+> 1. mkdir ~/.vim/bundle
+> 2. cd ~/.vim
+> 3. git submodule add http://github.com/tpope/vim-fugitive.git bundle/vim-fugitive
+> 4. Add ignore = dirty in .gitmodules (See Ref2 for why this is done)
 > 5. git add .
 > 6. git commit -m "Installed Fugitive.vim bundle as a submodule"
 
