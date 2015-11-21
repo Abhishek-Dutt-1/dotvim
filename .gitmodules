@@ -14,10 +14,6 @@
 	path = bundle/tern_for_vim
 	url = http://github.com/ternjs/tern_for_vim
     ignore = dirty
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = http://github.com/scrooloose/syntastic.git
-    ignore = dirty
 [submodule "bundle/vim-javascript-syntax"]
 	path = bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
