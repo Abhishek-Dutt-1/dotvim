@@ -98,3 +98,7 @@ set guifont=Courier\ 10\ Pitch\ 8
 set noswapfile
 set nobackup
 set nowritebackup
+
+" vim-easymotion mappings
+nmap s <Plug>(easymotion-s)
+nmap f <Plug>(easymotion-bd-w)
