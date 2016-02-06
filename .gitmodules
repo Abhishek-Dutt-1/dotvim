@@ -26,4 +26,7 @@
 	path = bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
   ignore = dirty
-
+[submodule "bundle/vim-hemisu"]
+	path = bundle/vim-hemisu
+	url = https://github.com/noahfrederick/vim-hemisu.git
+  ignore = dirty

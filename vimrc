@@ -6,7 +6,10 @@ execute pathogen#infect()
 set lbr
 
 " Change colorscheme
-colorscheme codeschool
+"colorscheme codeschool
+syntax on
+set background=dark "for hemisu colorscheme"
+colorscheme hemisu
 
 " Set line numbers
 set number
