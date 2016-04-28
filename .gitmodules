@@ -30,3 +30,7 @@
 	path = bundle/vim-hemisu
 	url = https://github.com/noahfrederick/vim-hemisu.git
   ignore = dirty
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+  ignore = dirty
